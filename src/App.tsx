@@ -382,7 +382,7 @@ const KaiakiSection = () => {
               <div className="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[8px] rounded-t-xl h-[172px] max-w-[301px] md:h-[294px] md:max-w-[512px]">
                 <div className="rounded-lg overflow-hidden h-[156px] md:h-[278px] bg-white dark:bg-gray-800">
                   <img 
-                    src="https://wagnersdoliveira.github.io/sitepmg1/assets/kaiaki-1.png" 
+                    src="https://i.ibb.co/RkSG3WGX/kaiaki1.png" 
                     className="h-[156px] md:h-[278px] w-full object-contain bg-slate-50" 
                     alt="Kaiaki Interface 1" 
                     referrerPolicy="no-referrer"
@@ -401,7 +401,7 @@ const KaiakiSection = () => {
                 className="absolute -bottom-10 -right-4 md:-right-10 w-32 md:w-64 rounded-xl overflow-hidden shadow-2xl border-4 border-white z-30 hidden sm:block"
               >
                 <img 
-                  src="https://wagnersdoliveira.github.io/sitepmg1/assets/kaiaki-2.png" 
+                  src="https://i.ibb.co/wZtcZnWf/kaiaki2.png" 
                   alt="Kaiaki Interface 2" 
                   className="w-full h-auto shadow-2xl"
                   referrerPolicy="no-referrer"
@@ -463,10 +463,10 @@ const Aplicacoes = () => {
 
 const AcademySection = () => {
   const academyImages = [
-    "https://i.postimg.cc/DSG7P7yv/IMG-20250507-092305.jpg",
-    "https://i.postimg.cc/LJPm3m4w/IMG-20250507-120032.jpg",
-    "https://i.postimg.cc/JGv1Xsm1/IMG-20250507-142559.jpg",
-    "https://i.postimg.cc/Sn9mfmNb/IMG-20250507-143102.jpg"
+    "https://i.ibb.co/QFVtbHz1/IMG-20250507-090246.jpg",
+    "https://i.ibb.co/Fkg2p09z/IMG-20250507-091302.jpg",
+    "https://i.ibb.co/Kj43pFJz/IMG-20250507-164317.jpg",
+    "https://i.ibb.co/zTVFxf6z/IMG-20250508-171925.jpg"
   ];
 
   return (
