@@ -265,7 +265,7 @@ const EverestSection = () => {
       {/* Background Everest Image with Overlay */}
       <div className="absolute top-0 right-0 w-full md:w-1/2 h-full opacity-20 pointer-events-none">
         <img 
-          src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&q=80&w=2000" 
+          src="https://i.ibb.co/mVkGppLh/lucid-origin-A-hyper-realistic-cinematic-interpretation-of-Mount-Everest-where-the-mountain-i-0.jpg" 
           alt="Mount Everest Peak" 
           className="w-full h-full object-cover grayscale brightness-150"
           referrerPolicy="no-referrer"
@@ -316,7 +316,7 @@ const EverestSection = () => {
           >
             <div className="aspect-square rounded-3xl overflow-hidden border border-white/10 shadow-2xl relative group">
               <img 
-                src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&q=80&w=1200" 
+                src="https://i.ibb.co/sv3Cv2jG/lucid-origin-A-hyper-realistic-cinematic-interpretation-of-Mount-Everest-where-the-mountain-i-1.jpg" 
                 alt="Mount Everest" 
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 referrerPolicy="no-referrer"
@@ -475,8 +475,19 @@ const AcademySection = () => {
       
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         {/* Hero Academy */}
-        <div className="bg-pmg-navy rounded-[3rem] p-12 md:p-20 text-white flex flex-col lg:flex-row items-center gap-12 shadow-2xl mb-20">
-          <div className="lg:w-3/5">
+        <div className="relative bg-pmg-navy rounded-[3rem] p-12 md:p-20 text-white flex flex-col lg:flex-row items-center gap-12 shadow-2xl mb-20 overflow-hidden">
+          {/* Background Image Overlay */}
+          <div className="absolute inset-0 z-0">
+            <img 
+              src="https://i.ibb.co/ZrPNcZN/Phoenix-09-Hyperrealistic-cinematic-wide-shot-of-a-highend-fut-3.jpg" 
+              alt="Futuristic Training Background" 
+              className="w-full h-full object-cover opacity-30"
+              referrerPolicy="no-referrer"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-pmg-navy via-pmg-navy/80 to-transparent"></div>
+          </div>
+
+          <div className="lg:w-3/5 relative z-10">
             <div className="mb-8">
               <img 
                 src="https://i.postimg.cc/7PJBLYRw/PMG_Academy_black.png" 
@@ -492,7 +503,7 @@ const AcademySection = () => {
               Na pmg, acreditamos que clicheria não é apenas entrega de matrizes; é a construção de resultados previsíveis. A <span className="text-white font-bold">pmg academy</span> integra o conhecimento especializado à rotina da sua gráfica.
             </p>
             <p className="text-lg md:text-xl text-white/70 mb-8 leading-relaxed">
-              Entendemos que, para alcançar o <span className="text-pmg-magenta font-bold text-2xl">Padrão 2026</span>, o colaborador do convertedor e o time da pmg precisam andar como um só corpo, dominando os mesmos processos e visando os mesmos resultados.
+              Entendemos que, para alcançar o <span className="text-pmg-magenta font-bold text-2xl">Padrão Máximo de Qualidade</span>, o colaborador do convertedor e o time da pmg precisam andar como um só corpo, dominando os mesmos processos e visando os mesmos resultados.
             </p>
             <a 
               href="#contato"
@@ -502,7 +513,7 @@ const AcademySection = () => {
             </a>
           </div>
           
-          <div className="lg:w-2/5 grid grid-cols-1 gap-6">
+          <div className="lg:w-2/5 grid grid-cols-1 gap-6 relative z-10">
             <div className="bg-white/5 border border-white/10 p-8 rounded-3xl backdrop-blur-sm">
               <h3 className="text-pmg-magenta font-bold text-xl mb-4 flex items-center gap-2">
                 <Zap size={20} /> O que é a PMG Academy?
