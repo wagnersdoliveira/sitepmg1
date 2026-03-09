@@ -382,7 +382,7 @@ const KaiakiSection = () => {
               <div className="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[8px] rounded-t-xl h-[172px] max-w-[301px] md:h-[294px] md:max-w-[512px]">
                 <div className="rounded-lg overflow-hidden h-[156px] md:h-[278px] bg-white dark:bg-gray-800">
                   <img 
-                    src="/assets/kaiaki-1.png" 
+                    src="assets/kaiaki-1.png" 
                     className="h-[156px] md:h-[278px] w-full object-contain bg-slate-50" 
                     alt="Kaiaki Interface 1" 
                     referrerPolicy="no-referrer"
@@ -401,7 +401,7 @@ const KaiakiSection = () => {
                 className="absolute -bottom-10 -right-4 md:-right-10 w-32 md:w-64 rounded-xl overflow-hidden shadow-2xl border-4 border-white z-30 hidden sm:block"
               >
                 <img 
-                  src="/assets/kaiaki-2.png" 
+                  src="assets/kaiaki-2.png" 
                   alt="Kaiaki Interface 2" 
                   className="w-full h-auto shadow-2xl"
                   referrerPolicy="no-referrer"
